@@ -1,0 +1,131 @@
+/* Basic flex display */
+
+.display-f {
+    display: flex;
+    /* flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center; */
+}
+
+
+/* Wrap the flexbox */
+
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+
+/* All direction types */
+
+.f-dir-row {
+    flex-direction: row;
+}
+
+.f-dir-column {
+    flex-direction: column;
+}
+
+.f-dir-reversed-row {
+    flex-direction: row-reverse;
+}
+
+.f-dir-reversed-column {
+    flex-direction: column-reverse;
+}
+
+
+/* All ways to justify position using flex */
+
+.f-justify-none {
+    justify-content: normal;
+}
+
+.f-justify-end {
+    justify-content: flex-end;
+}
+
+.f-justify-start {
+    justify-content: flex-start;
+}
+
+.f-justify-center {
+    justify-content: center;
+}
+
+.f-justify-spacebetween {
+    justify-content: space-between;
+}
+
+.f-justify-around {
+    justify-content: space-around;
+}
+
+.f-justify-evenly {
+    justify-content: space-evenly;
+}
+
+
+/* All ways to align items */
+
+.f-item-none {
+    align-items: normal;
+}
+
+.f-item-end {
+    align-items: flex-end;
+}
+
+.f-item-start {
+    align-items: flex-start;
+}
+
+.f-item-center {
+    align-items: center;
+}
+
+.f-item-spacebetween {
+    align-items: space-between;
+}
+
+.f-item-evenly {
+    align-items: space-evenly;
+}
+
+.f-item-around {
+    align-items: space-around;
+}
+
+
+/* All ways to simply fex grows */
+
+.f-g-f {
+    flex-grow: 1;
+}
+
+.f-g-n {
+    flex-grow: 0;
+}
+
+.f-g-full {
+    flex-grow: 1;
+}
+
+.f-g-none {
+    flex-grow: 0;
+}
+
+.f-grow-f {
+    flex-grow: 1;
+}
+
+.f-grow-n {
+    flex-grow: 0;
+}
+
+.f-grow-full {
+    flex-grow: 1;
+}
+
+.f-grow-none {
+    flex-grow: 0;
+}
