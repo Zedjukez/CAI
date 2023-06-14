@@ -29,6 +29,8 @@ body {
     /* min-width: 320px; */
     min-width: 50vw;
     min-height: 50vh;
+    padding-right: 250px;
+    padding-left: 250px;
 }
 
 h1 {
@@ -46,19 +48,23 @@ h1 {
 }
 
 button {
-    border-radius: 8px;
+    border-radius: 10px;
     border: 1px solid transparent;
     padding: 0.6em 1.2em;
     font-size: 1em;
     font-weight: 500;
     font-family: inherit;
-    background-color: #1a1a1a;
+    background-color: #ffffff;
     cursor: pointer;
     transition: border-color 0.25s;
+    color: black;
+    font-weight: bolder;
+    margin: 20px;
 }
 
 button:hover {
-    border-color: #646cff;
+    border-color: darkgreen;
+    border-width: 5px;
 }
 
 button:focus,

@@ -62,6 +62,7 @@ let categories = [
       words.pop();
       mymessage = words.join(', ');
     }
+    mymessage = "Make me a recipe with only the following ingredients and store any extra ingredients as a additional ingredient:";
   }
   
 
@@ -101,11 +102,11 @@ let categories = [
   placeholder="Make me a recipe with.." 
   class="inputtext" type="text" bind:value={mymessage}>
 
-  <button class="btnyousend" on:click={btnsend}>send</button>
+  <button class="btnyousend" on:click={btnsend}>SEND</button>
 </div>
 
 <div class="display-f">
-  <button on:click={deleteLastWord}>Delete</button>
+  <button style="background-color:red;" on:click={deleteLastWord}>Delete</button>
 
   {#if currentCategory}
   <button on:click={goBack}>Back</button>
@@ -157,12 +158,11 @@ let categories = [
 /*  IF SEND IS CHATBOT*/
   .message.bot{
     text-align: center;
-    background-color: green;
+    background-color: #03c04a;
     color: white;
     box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
        opacity: 1;
-    transition: all 2s ease
-    
+    transition: all 2s ease 
   }
   pre {
     white-space: pre-wrap;
@@ -181,8 +181,14 @@ let categories = [
 }
 /*STYLE FOR BUTTON*/
 .btnyousend{
-  background-color: green;
+  background-color: #AEF359;
   color: black;
+  min-width: 200px;
+  align-self: center;
+  border-color: #64AC0C;
+  border-width: 10px;
+  font-size: large;
+  font-weight: bold;
 }
 /*STYLE FOR WHOSEND*/
 .whosend{
