@@ -1,6 +1,6 @@
-# Svelte + TS + Vite
+# COOKING ASSISTANT AI
 
-This template should help get you started developing with Svelte and TypeScript in Vite.
+This setup prompts you with several buttons to create a recipe using chatgpt and simple instructions to make dinner with leftover food you have laying around in the house, this is my first time integrating a AI inside of a coding website.
 
 ## Recommended IDE Setup
 
